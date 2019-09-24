@@ -1,0 +1,12 @@
+*.swp
+*.pyc
+*.pkl
+*.py~
+.pytest_cache
+*.DS_Store
+.idea
+*.txt
+logs/
+*.egg-info
+.cache
+baselines/__pycache__

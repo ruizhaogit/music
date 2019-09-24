@@ -1,0 +1,16 @@
+{
+"sac": false, 
+"replay_k": 0, 
+"r_scale": 1, 
+"mi_r_scale": 0, 
+"sk_r_scale": 0, 
+"et_r_scale": 0.03, 
+"mi_w_schedule": [[0,1],[50,1],[200,1]], 
+"mi_end_epoch":200, 
+"goal_generation": "Env", 
+"num_skills": 1, 
+"et_w_schedule": [[0,0.2],[24,0.2],[200,0.2]], 
+"finetune_pi": false, 
+"no_train_mi": true, 
+"mi_prioritization": false, 
+"load_weight": false}
