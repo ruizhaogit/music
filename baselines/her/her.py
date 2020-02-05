@@ -1,6 +1,3 @@
-# COPYRIGHT NOTICE: THIS CODE IS ONLY FOR THE PURPOSE OF ICLR 2020 REVIEW.
-# PLEASE DO NOT DISTRIBUTE. WE WILL CREATE A NEW CODE REPO AFTER THE REVIEW PROCESS.
-
 import numpy as np
 import random
 from baselines.her.util import split_observation_np

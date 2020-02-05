@@ -1,6 +1,3 @@
-# COPYRIGHT NOTICE: THIS CODE IS ONLY FOR THE PURPOSE OF ICLR 2020 REVIEW.
-# PLEASE DO NOT DISTRIBUTE. WE WILL CREATE A NEW CODE REPO AFTER THE REVIEW PROCESS.
-
 import numpy as np
 import matplotlib
 matplotlib.use('TkAgg') # Can change to 'Agg' for non-interactive mode

@@ -1,6 +1,3 @@
-# COPYRIGHT NOTICE: THIS CODE IS ONLY FOR THE PURPOSE OF ICLR 2020 REVIEW.
-# PLEASE DO NOT DISTRIBUTE. WE WILL CREATE A NEW CODE REPO AFTER THE REVIEW PROCESS.
-
 import os
 import baselines.her.experiment.config as config
 from baselines.her.util import (save_weight, load_weight)

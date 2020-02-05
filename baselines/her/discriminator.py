@@ -1,6 +1,3 @@
-# COPYRIGHT NOTICE: THIS CODE IS ONLY FOR THE PURPOSE OF ICLR 2020 REVIEW.
-# PLEASE DO NOT DISTRIBUTE. WE WILL CREATE A NEW CODE REPO AFTER THE REVIEW PROCESS.
-
 import tensorflow as tf
 import tensorflow.contrib.layers as tf_layers
 from baselines.her.util import store_args, nn, split_observation_tf
