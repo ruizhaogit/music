@@ -2,7 +2,9 @@
 
 Here is the code for our paper "Mutual Information-based State-Control for Intrinsically Motivated Reinforcement Learning".
 
-The paper is under review.
+The code was developed by Rui Zhao during a research internship at Horizon Robotics Inc. Cupertino, CA, USA.
+
+The paper is under review at a conference.
 
 Our code is based on OpenAI Baselines (link: https://github.com/openai/baselines).   
 
@@ -47,3 +49,6 @@ After converting, you can use the pre-trained MI discriminator to accelerate lea
 ```
 python baselines/her/experiment/train.py --env_name FetchPickAndPlace-v1 --n_epochs 50 --num_cpu 16 --logging True --seed 0 --note SAC+MISC-r
 ```
+
+## License
+MIT
