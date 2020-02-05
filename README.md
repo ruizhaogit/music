@@ -1,12 +1,8 @@
-# Self-Supervised State-Control through Intrinsic Mutual Information Rewards
+# Mutual Information-based State-Control (MISC)
 
-Here is the code for our paper "Self-Supervised State-Control through Intrinsic Mutual Information Rewards".
+Here is the code for our paper "Mutual Information-based State-Control for Intrinsically Motivated Reinforcement Learning".
 
-The paper is under ICLR 2020 double-blind review.
-Please be careful to not reveal the identity of the authors/reviewers.
-
-COPYRIGHT NOTICE: THIS CODE IS ONLY FOR THE PURPOSE OF ICLR 2020 REVIEW.
-PLEASE DO NOT DISTRIBUTE. WE WILL CREATE A NEW CODE REPO AFTER THE REVIEW PROCESS.
+The paper is under review.
 
 Our code is based on OpenAI Baselines (link: https://github.com/openai/baselines).   
 
