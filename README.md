@@ -1,6 +1,6 @@
 # Mutual Information-based State-Control (MISC)
 
-Here is the code for our paper "Mutual Information-based State-Control for Intrinsically Motivated Reinforcement Learning".
+This is the code for our paper "Mutual Information-based State-Control for Intrinsically Motivated Reinforcement Learning".
 
 The code was developed by Rui Zhao during a research internship at Horizon Robotics Inc. Cupertino, CA, USA.
 
