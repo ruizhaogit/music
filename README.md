@@ -10,6 +10,11 @@ The preprint version is available on arXiv: https://arxiv.org/abs/2002.01963.
 
 Our code is based on OpenAI Baselines (link: https://github.com/openai/baselines).   
 
+## Learned Control Behaviors without Task Rewards
+
+<img width="300" height="" src="/demos/reach.gif"> <img width="300" height="" src="/demos/push.gif">
+<img width="300" height="" src="/demos/slide.gif"> <img width="300" height="" src="/demos/pick.gif">
+
 ## Prerequisites  
 
 The code requires python3 (>=3.5) with the development headers. You'll also need system packages CMake, OpenMPI and zlib. Those can be installed as follows  
@@ -51,11 +56,6 @@ After converting, you can use the pre-trained MI discriminator to accelerate lea
 ```
 python baselines/her/experiment/train.py --env_name FetchPickAndPlace-v1 --n_epochs 50 --num_cpu 16 --logging True --seed 0 --note SAC+MISC-r
 ```
-
-## Learned Control Behaviors without Task Rewards
-
-<img width="300" height="" src="/demos/reach.gif"> <img width="300" height="" src="/demos/push.gif">
-<img width="300" height="" src="/demos/slide.gif"> <img width="300" height="" src="/demos/pick.gif">
 
 ## Citation
 
