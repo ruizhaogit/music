@@ -52,6 +52,11 @@ After converting, you can use the pre-trained MI discriminator to accelerate lea
 python baselines/her/experiment/train.py --env_name FetchPickAndPlace-v1 --n_epochs 50 --num_cpu 16 --logging True --seed 0 --note SAC+MISC-r
 ```
 
+## Learned Control Behaviors without Supervision
+
+<img width="300" height="" src="/demos/reach.gif"><img width="300" height="" src="/demos/push.gif">  
+<img width="300" height="" src="/demos/slide.gif"><img width="300" height="" src="/demos/pick.gif">
+
 ## Citation
 
 Citation of the paper:
