@@ -54,8 +54,8 @@ python baselines/her/experiment/train.py --env_name FetchPickAndPlace-v1 --n_epo
 
 ## Learned Control Behaviors without Supervision
 
-<img width="300" height="" src="/demos/reach.gif"><img width="300" height="" src="/demos/push.gif">  
-<img width="300" height="" src="/demos/slide.gif"><img width="300" height="" src="/demos/pick.gif">
+<img width="300" height="" src="/demos/reach.gif"> <img width="300" height="" src="/demos/push.gif">
+<img width="300" height="" src="/demos/slide.gif"> <img width="300" height="" src="/demos/pick.gif">
 
 ## Citation
 
