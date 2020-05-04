@@ -12,7 +12,7 @@ Our code is based on OpenAI Baselines (link: https://github.com/openai/baselines
 
 ## Learned Control Behaviors without Task Rewards
 
-<img width="300" height="" src="/demos/reach.gif"> <img width="300" height="" src="/demos/push.gif">
+<img width="300" height="" src="/demos/reach.gif"> <img width="300" height="" src="/demos/push.gif">  
 <img width="300" height="" src="/demos/slide.gif"> <img width="300" height="" src="/demos/pick.gif">
 
 ## Prerequisites  
