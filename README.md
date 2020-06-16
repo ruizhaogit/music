@@ -64,7 +64,7 @@ Citation of the paper:
 ```
 @article{zhao2020mutual,
   title={Mutual Information-based State-Control for Intrinsically Motivated Reinforcement Learning},
-  author={Zhao, Rui and Tresp, Volker and Xu, Wei},
+  author={Zhao, Rui and Gao, Yang and Abbeel, Pieter and Tresp, Volker and Xu, Wei},
   journal={arXiv preprint arXiv:2002.01963},
   year={2020}
 }
