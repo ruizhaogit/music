@@ -57,7 +57,7 @@ DEFAULT_PARAMS = {
 
 ###############################################################################
 
-    'note': 'SAC+MISC',
+    'note': 'SAC+MUSIC',
 
     'sac': True, # Soft-Actor-Critic
     'replay_k': 0,
