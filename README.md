@@ -1,12 +1,12 @@
-# Mutual Information-based State-Control (MISC)
+# Mutual Information State Intrinsic Control (MUSIC) (Accepted by ICLR 2021 as Spotlight)
 
-This is the code for our paper "Mutual Information-based State-Control for Intrinsically Motivated Reinforcement Learning".
+This is the code for our paper "Mutual Information State Intrinsic Control".
 
 The code was developed by Rui Zhao during a research internship at Horizon Robotics Inc. Cupertino, CA, USA.
 
-The paper is under review at a conference.
+The paper is accepted by International Conference on Learning Representations (ICLR) 2021 as Spotlight.
 
-The preprint version is available on arXiv: https://arxiv.org/abs/2002.01963.
+The paper is available on ICLR openreview: https://openreview.net/forum?id=OthEq8I5v1.
 
 Our code is based on OpenAI Baselines (link: https://github.com/openai/baselines).   
 
@@ -35,26 +35,26 @@ Note that, with less CPUs, the performance will be affected.
 
 After the installation of dependencies, you can start to reproduce the experimental results by running the following commands.
 
-The following command is for training an agent using MISC without any rewards or supervision.
+The following command is for training an agent using MUSIC without any rewards or supervision.
 ```
-python baselines/her/experiment/train.py --env_name FetchPickAndPlace-v1 --n_epochs 50 --num_cpu 16 --logging True --seed 0 --note SAC+MISC
+python baselines/her/experiment/train.py --env_name FetchPickAndPlace-v1 --n_epochs 50 --num_cpu 16 --logging True --seed 0 --note SAC+MUSIC
 ```
 To test the learned policies, you can run the command:  
 ```
-python baselines/her/experiment/play.py /path/to/an/experiment/policy_latest.pkl --note SAC+MISC
+python baselines/her/experiment/play.py /path/to/an/experiment/policy_latest.pkl --note SAC+MUSIC
 ```
 The rendered video is saved alongside the policy file.
 
 You can also extract the weight from the saved TensorFlow graph .pkl file.
-To do this, you need to put the path of the .pkl file into the config file, for example, into "params/SAC+MISC.json".
+To do this, you need to put the path of the .pkl file into the config file, for example, into "params/SAC+MUSIC.json".
 Afterwards, you can use the following command to convert the .pkl file:
 ```
-python baselines/her/experiment/save_weight.py --env_name FetchPickAndPlace-v1 --note SAC+MISC-r --seed 0
+python baselines/her/experiment/save_weight.py --env_name FetchPickAndPlace-v1 --note SAC+MUSIC-r --seed 0
 ```
 
 After converting, you can use the pre-trained MI discriminator to accelerate learning:
 ```
-python baselines/her/experiment/train.py --env_name FetchPickAndPlace-v1 --n_epochs 50 --num_cpu 16 --logging True --seed 0 --note SAC+MISC-r
+python baselines/her/experiment/train.py --env_name FetchPickAndPlace-v1 --n_epochs 50 --num_cpu 16 --logging True --seed 0 --note SAC+MUSIC-r
 ```
 
 ## Citation
@@ -62,11 +62,12 @@ python baselines/her/experiment/train.py --env_name FetchPickAndPlace-v1 --n_epo
 Citation of the paper:
 
 ```
-@article{zhao2020mutual,
-  title={Mutual Information-based State-Control for Intrinsically Motivated Reinforcement Learning},
-  author={Zhao, Rui and Gao, Yang and Abbeel, Pieter and Tresp, Volker and Xu, Wei},
-  journal={arXiv preprint arXiv:2002.01963},
-  year={2020}
+@inproceedings{zhao2021mutual,
+    title={Mutual Information State Intrinsic Control},
+    author={Zhao, Rui and Gao, Yang and Abbeel, Pieter and Tresp, Volker and Xu, Wei},
+    booktitle={International Conference on Learning Representations},
+    year={2021},
+    url={https://openreview.net/forum?id=OthEq8I5v1}
 }
 ```
 
